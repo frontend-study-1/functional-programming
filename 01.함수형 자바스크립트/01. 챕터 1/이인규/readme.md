@@ -89,6 +89,7 @@ arr.forEach((each) => {
     _.chaing(numbers)
       .filter((x) => x % 2 !== 0)
       .take(2)
+      .value()
   );
   ```
 
